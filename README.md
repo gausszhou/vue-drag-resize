@@ -2,10 +2,13 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE) [![Npm Package](https://img.shields.io/npm/v/@gausszhou/vue-drag-resize.svg)](https://www.npmjs.com/package/@gausszhou/vue-drag-resize)
 
+## About
+
+> beta version
+
 ## Live Demo
 
 [中文在线演示地址](https://gausszhou.github.io/vue-drag-resize)
-
 
 ## Quick Start
 
