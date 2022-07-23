@@ -1152,7 +1152,7 @@ export default {
 <style scoped>
 .vue-drr-box {
   position: absolute;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   touch-action: none;
   border: 1px dashed #ccc;
 }

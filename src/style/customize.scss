@@ -21,21 +21,6 @@
   border-color: #08de05;
 }
 
-
-.drag-handle,
-.drag-cancel {
-  padding: 6px;
-  background-color: #CCC;
-}
-
-.drag-handle:hover {
-  cursor: move;
-}
-
-.drag-cancel:hover {
-  cursor: not-allowed;
-}
-
 .my-handle-class {
   position: absolute;
   border: 1px solid black;
