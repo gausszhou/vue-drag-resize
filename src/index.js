@@ -1,9 +1,9 @@
-import VueDragReSizeRotate from "./components/vue-drag-resize-rotate/index.vue";
+import VueDragReSize from "./components/vue-drag-resize/index.vue";
 
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("vue-drag-resize-rotate", VueDragReSizeRotate);
+  Vue.component("vue-drag-resize", VueDragReSize);
 }
 
 const plugin = {
@@ -20,4 +20,4 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-export default VueDragReSizeRotate;
+export default VueDragReSize;

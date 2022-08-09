@@ -26,7 +26,35 @@
             </div>
           </div>
           <div class="window-body">
-            <video src="https:/static.gausszhou.top/data/video/h264/Dyson_Ball_264.mp4" controls></video>
+            <video src="https://static.gausszhou.top/data/video/h264/Dyson_Ball_264.mp4" controls></video>
+          </div>
+        </div>
+      </vue-drag-resize>
+         <vue-drag-resize
+        :drag-handle="'.drag-handle'"
+        :x="400"
+        :y="400"
+        :w="320"
+        :h="210"
+        :min-width="320"
+        :min-height="210"
+      >
+        <div class="window">
+          <div class="window-header">
+            <div class="window-header-button-group">
+              <span>文件</span>
+              <span>编辑</span>
+              <span>选择</span>
+            </div>
+            <div class="window-header-drag drag-handle">Drag Only Here</div>
+            <div class="window-header-button-group">
+              <span>➖</span>
+              <span>⬜</span>
+              <span>❌</span>
+            </div>
+          </div>
+          <div class="window-body">
+            <iframe src="//gausszhou.top" frameborder="0"></iframe>
           </div>
         </div>
       </vue-drag-resize>
@@ -75,7 +103,8 @@
   background-color: #000;
 }
 
-.window-body video {
+.window-body video,
+.window-body iframe {
   width: 100%;
   height: 100%;
 }
