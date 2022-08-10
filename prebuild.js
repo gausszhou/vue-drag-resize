@@ -1,5 +1,5 @@
 const glob = require("glob");
-const fs = require("fs-extra");
+const fs = require("fs");
 const path = require("path");
 
 (async () => {

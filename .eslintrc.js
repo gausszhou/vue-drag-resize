@@ -3,8 +3,7 @@ module.exports = {
   env: {
     node: true
   },
-  // extends: ['plugin:vue/recommended', 'eslint:recommended'], // 官方推荐，比较严格
-  extends: ["plugin:vue/essential", "eslint:recommended"], // 基本的
+  extends: ["plugin:vue/vue3-essential", "eslint:recommended"], 
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",

@@ -3,8 +3,8 @@
   "version": "2.0.0-beta.2",
   "description": "A Component for Vue.js 2.0",
   "author": "gausszhou <gausszhou@qq.com>",
-  "main": "lib/bundle.js",
-  "export": "lib/bundle.js",
+  "main": "lib/bundle.umd.js",
+  "export": "lib/bundle.umd.js",
   "private": false,
   "publishConfig": {
     "access": "public"
