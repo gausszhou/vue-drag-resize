@@ -1156,7 +1156,7 @@ export default {
   touch-action: none;
   border: 1px dashed #ccc;
 }
-.vue-drr-slot{
+.vue-drr-slot {
   position: absolute;
   box-sizing: border-box;
   width: 100%;
